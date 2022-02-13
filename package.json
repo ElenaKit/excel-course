@@ -1,0 +1,30 @@
+{
+  "name": "jsmininexcelcourse",
+  "version": "1.0.0",
+  "description": "Pure JavaScript Excel Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElenaKit/excel-course.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "excel"
+  ],
+  "author": "Kitaeva Elena <kitaeva.lenka16@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElenaKit/excel-course/issues"
+  },
+  "homepage": "https://github.com/ElenaKit/excel-course#readme",
+  "devDependencies": {
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
