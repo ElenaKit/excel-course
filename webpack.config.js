@@ -20,7 +20,7 @@ const jsLoaders = () => {
     return loaders
 }
 
-const filename = ext => isDev ? `bundle.${ext}` : `bundle.[hash].${ext}`
+const filename = (ext) => isDev ? `bundle.${ext}` : `bundle.[hash].${ext}`
 
 module.exports = {
   context: path.resolve(__dirname, `src`),
@@ -39,7 +39,7 @@ module.exports = {
   },
   devtool: isDev ? 'source-map' : false,
   devServer: {
-    port: 3000,
+    port: 4200,
     hot: isDev
   },
   plugins: [
